@@ -1,0 +1,7 @@
+{
+    "batch_size": {"_type":"choice", "_value": [8, 16, 32]},
+    "model": {"_type" : "choice", "_value" : ["Efficientnet_b6", "Efficientnet_b4", "ecaresnet50t", "seresnet152d"]},
+    "criterion": {"_type": "choice", "_value" : ["focal", "label_smoothing", "cross_entropy", "f1"]},
+    "classification": {"_type":  "choice", "_value": ["gender", "age", "multi"]}
+}
+
